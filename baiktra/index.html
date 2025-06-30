@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý Sổ Tiết Kiệm</title>
+</head>
+<body>
+<h2>Thêm Sổ Tiết Kiệm</h2>
+<label>Mã sổ:</label><input type="text" id="maSo"><br>
+<label>Loại tiết kiệm:</label><input type="text" id="loai"><br>
+<label>Họ tên:</label><input type="text" id="hoTen"><br>
+<label>CMND:</label><input type="number" id="cmnd"><br>
+<label>Ngày mở (yyyy-mm-dd):</label><input type="date" id="ngay"><br>
+<label>Số tiền gửi:</label><input type="number" id="soTien"><br><br>
+
+<button onclick="themSo()">Thêm sổ</button>
+<button onclick="xoaSo()">Xóa theo mã</button>
+
+<h3>Danh sách sổ tiết kiệm:</h3>
+<ul id="dsSo"></ul>
+
+<script src="index.js"></script>
+</body>
+</html>
