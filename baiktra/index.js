@@ -25,17 +25,22 @@
 // console.log("Mảng b (số nguyên tố):", b);
 
 //bai 2
-// let tu1 = +prompt("Nhập tử số phân số thứ 1:");
-// let mau1 = +prompt("Nhập mẫu số phân số thứ 1:");
-//
-// let tu2 = +prompt("Nhập tử số phân số thứ 2:");
-// let mau2 = +prompt("Nhập mẫu số phân số thứ 2:");
-//
-// if (tu1 * mau2 === tu2 * mau1) {
-//     alert("Hai phân số bằng nhau.");
-// } else {
-//     alert("Hai phân số KHÔNG bằng nhau.");
+// function soSanhPhanSo(tu1, mau1, tu2, mau2) {
+//     return tu1 * mau2 === tu2 * mau1;
 // }
+//
+// // let tu1 = +prompt("Nhập tử số phân số thứ 1:");
+// // let mau1 = +prompt("Nhập mẫu số phân số thứ 1:");
+//
+// // let tu2 = +prompt("Nhập tử số phân số thứ 2:");
+//
+// // let mau2 = +prompt("Nhập mẫu số phân số thứ 2:");
+// // if (soSanhPhanSo(tu1, mau1, tu2, mau2)) {
+// //     alert("Hai phân số bằng nhau.");
+// // } else {
+// //     alert("Hai phân số ko bằng nhau.");
+// // }
+
 
 
 // bai 3
